@@ -1,7 +1,5 @@
 # SkinSync-Your-Pocket-Dermatologist
 
-![SkinSync Logo](./frontend/assets/images/logo.png)
-
 SkinSync is an innovative mobile application that democratizes skin and body care through AI-powered analysis, personalized recommendations, and community support.
 
 ## Features
@@ -69,44 +67,6 @@ npm run dev # Starts development server
 cd frontend
 npm install
 npx expo start # Starts the Expo development server
-```
-
-## Project Structure
-
-```
-skinsync/
-├── README.md
-├── package.json
-├── .gitignore
-├── .env.example
-│
-├── frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── screens/
-│   │   ├── navigation/
-│   │   ├── constants/
-│   │   ├── contexts/
-│   │   ├── hooks/
-│   │   └── utils/
-│   ├── assets/
-│   └── app.json
-│
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   └── utils/
-│   └── server.js
-│
-└── ai-models/
-    ├── skin-analysis/
-    └── recommendation-engine/
 ```
 
 ## API Documentation
